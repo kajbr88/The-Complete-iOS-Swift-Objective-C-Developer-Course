@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F61D53922C9A9A9300C02F2A /* Gloves.m in Sources */ = {isa = PBXBuildFile; fileRef = F61D53912C9A9A9300C02F2A /* Gloves.m */; };
+		F61D53952C9AA2ED00C02F2A /* HeavyBag.m in Sources */ = {isa = PBXBuildFile; fileRef = F61D53942C9AA2ED00C02F2A /* HeavyBag.m */; };
+		F61D53982C9AB3EF00C02F2A /* SpeedBall.m in Sources */ = {isa = PBXBuildFile; fileRef = F61D53972C9AB3EF00C02F2A /* SpeedBall.m */; };
+		F61D539B2C9ABD7600C02F2A /* JumpRope.m in Sources */ = {isa = PBXBuildFile; fileRef = F61D539A2C9ABD7600C02F2A /* JumpRope.m */; };
+		F61D539E2C9AC20B00C02F2A /* Boxer.m in Sources */ = {isa = PBXBuildFile; fileRef = F61D539D2C9AC20B00C02F2A /* Boxer.m */; };
+		F65D10252C9EC0C300D4C058 /* BoxingMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = F65D10242C9EC0C300D4C058 /* BoxingMonster.m */; };
+		F67D34B42C97E69C005DEC40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F67D34B32C97E69C005DEC40 /* AppDelegate.m */; };
+		F67D34B72C97E69C005DEC40 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F67D34B62C97E69C005DEC40 /* SceneDelegate.m */; };
+		F67D34BA2C97E69C005DEC40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F67D34B92C97E69C005DEC40 /* ViewController.m */; };
+		F67D34BD2C97E69C005DEC40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67D34BB2C97E69C005DEC40 /* Main.storyboard */; };
+		F67D34BF2C97E6A1005DEC40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67D34BE2C97E6A1005DEC40 /* Assets.xcassets */; };
+		F67D34C22C97E6A1005DEC40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67D34C02C97E6A1005DEC40 /* LaunchScreen.storyboard */; };
+		F67D34C52C97E6A1005DEC40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F67D34C42C97E6A1005DEC40 /* main.m */; };
+		F683F0A22C98462100A872BA /* BoxingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F683F0A12C98462000A872BA /* BoxingFactory.m */; };
+		F6A589C62CA05C7D006981B2 /* punchspeed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6A589BD2CA05C7C006981B2 /* punchspeed.jpg */; };
+		F6A589C72CA05C7D006981B2 /* punchPower.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A589BE2CA05C7C006981B2 /* punchPower.png */; };
+		F6A589C82CA05C7D006981B2 /* fight1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A589BF2CA05C7C006981B2 /* fight1.png */; };
+		F6A589C92CA05C7D006981B2 /* fight2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A589C02CA05C7C006981B2 /* fight2.png */; };
+		F6A589CA2CA05C7D006981B2 /* stage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6A589C12CA05C7C006981B2 /* stage1.jpg */; };
+		F6A589CB2CA05C7D006981B2 /* stamina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6A589C22CA05C7D006981B2 /* stamina.jpg */; };
+		F6A589CC2CA05C7D006981B2 /* boxingMaster.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A589C32CA05C7D006981B2 /* boxingMaster.png */; };
+		F6A589CD2CA05C7D006981B2 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A589C42CA05C7D006981B2 /* food.png */; };
+		F6A589CE2CA05C7D006981B2 /* stage2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A589C52CA05C7D006981B2 /* stage2.png */; };
+		F6DE44472C983DE700D33BE9 /* Stage.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DE44462C983DE700D33BE9 /* Stage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F61D53902C9A9A9200C02F2A /* Gloves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gloves.h; sourceTree = "<group>"; };
+		F61D53912C9A9A9300C02F2A /* Gloves.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gloves.m; sourceTree = "<group>"; };
+		F61D53932C9AA2ED00C02F2A /* HeavyBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeavyBag.h; sourceTree = "<group>"; };
+		F61D53942C9AA2ED00C02F2A /* HeavyBag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeavyBag.m; sourceTree = "<group>"; };
+		F61D53962C9AB3EF00C02F2A /* SpeedBall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeedBall.h; sourceTree = "<group>"; };
+		F61D53972C9AB3EF00C02F2A /* SpeedBall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedBall.m; sourceTree = "<group>"; };
+		F61D53992C9ABD7600C02F2A /* JumpRope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumpRope.h; sourceTree = "<group>"; };
+		F61D539A2C9ABD7600C02F2A /* JumpRope.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpRope.m; sourceTree = "<group>"; };
+		F61D539C2C9AC20B00C02F2A /* Boxer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boxer.h; sourceTree = "<group>"; };
+		F61D539D2C9AC20B00C02F2A /* Boxer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boxer.m; sourceTree = "<group>"; };
+		F65D10232C9EC0C300D4C058 /* BoxingMonster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxingMonster.h; sourceTree = "<group>"; };
+		F65D10242C9EC0C300D4C058 /* BoxingMonster.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxingMonster.m; sourceTree = "<group>"; };
+		F67D34AF2C97E69C005DEC40 /* BoxerStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxerStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67D34B22C97E69C005DEC40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F67D34B32C97E69C005DEC40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F67D34B52C97E69C005DEC40 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F67D34B62C97E69C005DEC40 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F67D34B82C97E69C005DEC40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F67D34B92C97E69C005DEC40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F67D34BC2C97E69C005DEC40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F67D34BE2C97E6A1005DEC40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F67D34C12C97E6A1005DEC40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F67D34C32C97E6A1005DEC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67D34C42C97E6A1005DEC40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F683F0A02C98462000A872BA /* BoxingFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxingFactory.h; sourceTree = "<group>"; };
+		F683F0A12C98462000A872BA /* BoxingFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxingFactory.m; sourceTree = "<group>"; };
+		F6A589BD2CA05C7C006981B2 /* punchspeed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = punchspeed.jpg; sourceTree = "<group>"; };
+		F6A589BE2CA05C7C006981B2 /* punchPower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = punchPower.png; sourceTree = "<group>"; };
+		F6A589BF2CA05C7C006981B2 /* fight1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fight1.png; sourceTree = "<group>"; };
+		F6A589C02CA05C7C006981B2 /* fight2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fight2.png; sourceTree = "<group>"; };
+		F6A589C12CA05C7C006981B2 /* stage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stage1.jpg; sourceTree = "<group>"; };
+		F6A589C22CA05C7D006981B2 /* stamina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stamina.jpg; sourceTree = "<group>"; };
+		F6A589C32CA05C7D006981B2 /* boxingMaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxingMaster.png; sourceTree = "<group>"; };
+		F6A589C42CA05C7D006981B2 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		F6A589C52CA05C7D006981B2 /* stage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage2.png; sourceTree = "<group>"; };
+		F6DE44452C983DE700D33BE9 /* Stage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stage.h; sourceTree = "<group>"; };
+		F6DE44462C983DE700D33BE9 /* Stage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F67D34AC2C97E69C005DEC40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F67D34A62C97E69C005DEC40 = {
+			isa = PBXGroup;
+			children = (
+				F67D34B12C97E69C005DEC40 /* BoxerStory */,
+				F67D34B02C97E69C005DEC40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F67D34B02C97E69C005DEC40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F67D34AF2C97E69C005DEC40 /* BoxerStory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F67D34B12C97E69C005DEC40 /* BoxerStory */ = {
+			isa = PBXGroup;
+			children = (
+				F6A589A92CA059EA006981B2 /* Supporting Files */,
+				F67D34B22C97E69C005DEC40 /* AppDelegate.h */,
+				F67D34B32C97E69C005DEC40 /* AppDelegate.m */,
+				F67D34CD2C97E717005DEC40 /* Controller */,
+				F67D34CC2C97E70B005DEC40 /* View */,
+				F67D34CB2C97E6EA005DEC40 /* Model */,
+				F67D34B52C97E69C005DEC40 /* SceneDelegate.h */,
+				F67D34B62C97E69C005DEC40 /* SceneDelegate.m */,
+				F67D34BE2C97E6A1005DEC40 /* Assets.xcassets */,
+				F67D34C02C97E6A1005DEC40 /* LaunchScreen.storyboard */,
+				F67D34C32C97E6A1005DEC40 /* Info.plist */,
+				F67D34C42C97E6A1005DEC40 /* main.m */,
+			);
+			path = BoxerStory;
+			sourceTree = "<group>";
+		};
+		F67D34CB2C97E6EA005DEC40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F683F09F2C98456F00A872BA /* BoxingFactory */,
+				F6DE44452C983DE700D33BE9 /* Stage.h */,
+				F6DE44462C983DE700D33BE9 /* Stage.m */,
+				F61D53902C9A9A9200C02F2A /* Gloves.h */,
+				F61D53912C9A9A9300C02F2A /* Gloves.m */,
+				F61D53932C9AA2ED00C02F2A /* HeavyBag.h */,
+				F61D53942C9AA2ED00C02F2A /* HeavyBag.m */,
+				F61D53962C9AB3EF00C02F2A /* SpeedBall.h */,
+				F61D53972C9AB3EF00C02F2A /* SpeedBall.m */,
+				F61D53992C9ABD7600C02F2A /* JumpRope.h */,
+				F61D539A2C9ABD7600C02F2A /* JumpRope.m */,
+				F61D539C2C9AC20B00C02F2A /* Boxer.h */,
+				F61D539D2C9AC20B00C02F2A /* Boxer.m */,
+				F65D10232C9EC0C300D4C058 /* BoxingMonster.h */,
+				F65D10242C9EC0C300D4C058 /* BoxingMonster.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F67D34CC2C97E70B005DEC40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F67D34BB2C97E69C005DEC40 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F67D34CD2C97E717005DEC40 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F67D34B82C97E69C005DEC40 /* ViewController.h */,
+				F67D34B92C97E69C005DEC40 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F683F09F2C98456F00A872BA /* BoxingFactory */ = {
+			isa = PBXGroup;
+			children = (
+				F683F0A02C98462000A872BA /* BoxingFactory.h */,
+				F683F0A12C98462000A872BA /* BoxingFactory.m */,
+			);
+			path = BoxingFactory;
+			sourceTree = "<group>";
+		};
+		F6A589A92CA059EA006981B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6A589AA2CA05A04006981B2 /* BackgroundImages */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6A589AA2CA05A04006981B2 /* BackgroundImages */ = {
+			isa = PBXGroup;
+			children = (
+				F6A589C32CA05C7D006981B2 /* boxingMaster.png */,
+				F6A589BF2CA05C7C006981B2 /* fight1.png */,
+				F6A589C02CA05C7C006981B2 /* fight2.png */,
+				F6A589C42CA05C7D006981B2 /* food.png */,
+				F6A589BE2CA05C7C006981B2 /* punchPower.png */,
+				F6A589BD2CA05C7C006981B2 /* punchspeed.jpg */,
+				F6A589C12CA05C7C006981B2 /* stage1.jpg */,
+				F6A589C52CA05C7D006981B2 /* stage2.png */,
+				F6A589C22CA05C7D006981B2 /* stamina.jpg */,
+			);
+			path = BackgroundImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F67D34AE2C97E69C005DEC40 /* BoxerStory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F67D34C82C97E6A1005DEC40 /* Build configuration list for PBXNativeTarget "BoxerStory" */;
+			buildPhases = (
+				F67D34AB2C97E69C005DEC40 /* Sources */,
+				F67D34AC2C97E69C005DEC40 /* Frameworks */,
+				F67D34AD2C97E69C005DEC40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxerStory;
+			productName = BoxerStory;
+			productReference = F67D34AF2C97E69C005DEC40 /* BoxerStory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F67D34A72C97E69C005DEC40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F67D34AE2C97E69C005DEC40 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F67D34AA2C97E69C005DEC40 /* Build configuration list for PBXProject "BoxerStory" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F67D34A62C97E69C005DEC40;
+			productRefGroup = F67D34B02C97E69C005DEC40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F67D34AE2C97E69C005DEC40 /* BoxerStory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F67D34AD2C97E69C005DEC40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A589CC2CA05C7D006981B2 /* boxingMaster.png in Resources */,
+				F6A589C82CA05C7D006981B2 /* fight1.png in Resources */,
+				F6A589CD2CA05C7D006981B2 /* food.png in Resources */,
+				F6A589CE2CA05C7D006981B2 /* stage2.png in Resources */,
+				F6A589C62CA05C7D006981B2 /* punchspeed.jpg in Resources */,
+				F67D34C22C97E6A1005DEC40 /* LaunchScreen.storyboard in Resources */,
+				F6A589CB2CA05C7D006981B2 /* stamina.jpg in Resources */,
+				F6A589C72CA05C7D006981B2 /* punchPower.png in Resources */,
+				F6A589C92CA05C7D006981B2 /* fight2.png in Resources */,
+				F67D34BF2C97E6A1005DEC40 /* Assets.xcassets in Resources */,
+				F6A589CA2CA05C7D006981B2 /* stage1.jpg in Resources */,
+				F67D34BD2C97E69C005DEC40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F67D34AB2C97E69C005DEC40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61D53982C9AB3EF00C02F2A /* SpeedBall.m in Sources */,
+				F61D53922C9A9A9300C02F2A /* Gloves.m in Sources */,
+				F6DE44472C983DE700D33BE9 /* Stage.m in Sources */,
+				F61D539B2C9ABD7600C02F2A /* JumpRope.m in Sources */,
+				F67D34BA2C97E69C005DEC40 /* ViewController.m in Sources */,
+				F61D539E2C9AC20B00C02F2A /* Boxer.m in Sources */,
+				F67D34B42C97E69C005DEC40 /* AppDelegate.m in Sources */,
+				F61D53952C9AA2ED00C02F2A /* HeavyBag.m in Sources */,
+				F683F0A22C98462100A872BA /* BoxingFactory.m in Sources */,
+				F65D10252C9EC0C300D4C058 /* BoxingMonster.m in Sources */,
+				F67D34C52C97E6A1005DEC40 /* main.m in Sources */,
+				F67D34B72C97E69C005DEC40 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F67D34BB2C97E69C005DEC40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67D34BC2C97E69C005DEC40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F67D34C02C97E6A1005DEC40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67D34C12C97E6A1005DEC40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F67D34C62C97E6A1005DEC40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F67D34C72C97E6A1005DEC40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F67D34C92C97E6A1005DEC40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoxerStory/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kajbr.BoxerStory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F67D34CA2C97E6A1005DEC40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoxerStory/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kajbr.BoxerStory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F67D34AA2C97E69C005DEC40 /* Build configuration list for PBXProject "BoxerStory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67D34C62C97E6A1005DEC40 /* Debug */,
+				F67D34C72C97E6A1005DEC40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F67D34C82C97E6A1005DEC40 /* Build configuration list for PBXNativeTarget "BoxerStory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67D34C92C97E6A1005DEC40 /* Debug */,
+				F67D34CA2C97E6A1005DEC40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F67D34A72C97E69C005DEC40 /* Project object */;
+}
